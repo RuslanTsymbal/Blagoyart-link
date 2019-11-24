@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Blagoyart</title>
+  <meta name="description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="styles/load-styles.css" rel="stylesheet" media="screen">
+  <link href="styles/main.css" rel="stylesheet" media="screen">
+
+  <link href="images/favicon.ico" rel="icon" type="image/x-icon">
+
+</head>
+
+<body>
+<header class="page-header">
+
+  <div class="mob-menu">
+
+    <div class="burger-menu">
+      <div class="burger-menu__container" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+    </div>
+
+    <div class="mob-menu__list">
+      <nav>
+        <ul>
+          <li><a class="home-mob" href="#"></a></li>
+          <li>
+            <button class="search-mob btn" type="button"></button>
+          </li>
+          <li><a class="quantity-mob" href="#"></a></li>
+          <li>
+            <button class="entry-mob btn" type="button"></button>
+          </li>
+          <li>
+            <button class="call-mob btn" type="button"></button>
+          </li>
+        </ul>
+      </nav>
+    </div><!-- .mob-menu__list -->
+
+  </div><!-- .mob-menu -->
+
+  <div class="header-container header">
+
+    <div class="header__top">
+
+      <div class="header__left">
+
+        <div class="logo">
+          <img src="images/logo.png" alt="logo">
+          <span>Интернет-магазин «Благой арт»</span>
+        </div>
+
+        <form class="form-header form-header_flex form-header_mob" action="#" method="#">
+          <input type="search" name="search-header" class="search-header__field"
+                 placeholder="Введите название или артикул">
+          <button type="submit" class="btn btn-search"></button>
+        </form>
+      </div><!-- .header__left -->
+
+      <div class="header__right">
+        <div class="header__tel">
+          <a href="tel:+7(800)707-81-39">+7 (800) 707-81-39</a>
+        </div>
+        <div class="schedule">
+          <span>ПН-ПТ с 9:00 до 18:00</span>
+          <span>Доставка по РФ и СНГ</span>
+        </div>
+      </div><!-- .header__right -->
+
+    </div><!-- .header__top -->
+
+    <div class="header__bottom">
+
+      <div class="menu">
+
+        <div class="pop-up-menu pop-up-menu_js">
+
+          <ul>
+            <li class="marker-arrow nested-list">Свадебная бижутерия</li>
+            <li class="marker"><a href="#">Аксессуары для волос</a></li>
+            <li class="marker"><a href="#">Броши</a></li>
+            <li class="marker-arrow nested-list nested-list_js">Мужские аксессуары
+
+              <div class="pop-up-nested">
+                <ul class="pop-up-nested_js">
+                  <lh class="pop-up-nested-title">МУЖСКАЯ БИЖУТЕРИЯ</lh>
+                  <li class="marker"><a href="#">Браслеты</a></li>
+                  <li class="marker"><a href="#">Кулоны</a></li>
+                  <li class="marker"><a href="#">Зажимы и запонки</a></li>
+                </ul>
+              </div>
+
+            </li>
+            <li class="marker"><a href="#">Клатчи</a></li>
+            <li class="marker"><a href="#">Детская бижутерия</a></li>
+            <li class="marker-top"><a href="#">Демонстрационное<br>оборудование</a></li>
+          </ul>
+
+        </div><!-- .pop-up-menu -->
+
+        <nav>
+          <ul>
+            <li>
+              <div class="button-menu">
+                <span class="menu__icon-list"></span>
+                <button type="button" class="btn-menu_js btn-menu btn-menu_marg-l btn">КАТАЛОГ ТОВАРОВ</button>
+              </div>
+            </li>
+            <li><a href="#">УСЛОВИЯ РАБОТЫ</a></li>
+            <li><a href="#">СКИДКИ</a></li>
+            <li><a href="#">ОПЛАТА И ДОСТАВКА</a></li>
+            <li><a href="#">ДОКУМЕНТЫ</a></li>
+            <li><a href="#">КОНТАКТЫ</a></li>
+          </ul>
+        </nav>
+
+      </div><!-- .menu -->
+
+      <div class="authorization">
+
+        <div class="authorization__basket">
+          <a href="#" class="my-quantity"></a>
+          <span class="basket-quantity">10</span>
+          <span class="basket-info">ТОВАРОВ / <span class="basket-info-num">56 789 Р</span></span>
+        </div>
+        <div class="authorization__entry">
+          <button type="button" class="btn btn-authorization">Войти</button>
+        </div>
+
+      </div><!-- .authorization -->
+
+    </div><!-- .header__bottom -->
+
+  </div><!-- .header-container -->
+
+</header>
+
+
+<div class="page-container page">
+
+  <div class="slider">
+    <div class="slider__item slider__item-img-1">
+      <div class="slider__content">
+               <span>Новая коллекция<br>
+                SWAROVSKI уже здесь!</span>
+      </div>
+    </div>
+
+    <div class="slider__item slider__item-img-2">
+      <div class="slider__content">
+               <span>Новая коллекция<br>
+                SWAROVSKI уже здесь!</span>
+      </div>
+    </div>
+
+    <div class="slider__item slider__item-img-3">
+      <div class="slider__content">
+               <span>Новая коллекция<br>
+                SWAROVSKI уже здесь!</span>
+      </div>
+    </div>
+  </div><!-- .slider -->
+
+</div>
+
+<footer class="page-footer">
+  
+</footer>
+
+<script src="scripts/load-scripts.js"></script>
+<script src="scripts/main.js"></script>
+
+</body>
+</html>
